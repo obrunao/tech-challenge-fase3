@@ -1,0 +1,29 @@
+# Python / venv / cache
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Dados locais (não versionar DB nem parquet gerado)
+data/rt_weather.duckdb
+data/raw/
+data/refined/*.parquet
+
+# Modelos treinados (gerados)
+models/*.pkl
+models/*.joblib
+
+# Logs / artefatos runtime
+logs/
+*.log
+.streamlit/
+
+# Sistema
+.DS_Store
+Thumbs.db

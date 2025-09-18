@@ -1,0 +1,16 @@
+[
+  "temp_lag_1h",
+  "temp_lag_2h",
+  "temp_lag_3h",
+  "temp_lag_4h",
+  "temp_lag_5h",
+  "temp_lag_6h",
+  "temp_lag_24h",
+  "temp_ma_3h",
+  "temp_ma_6h",
+  "relative_humidity_2m",
+  "precipitation",
+  "wind_speed_10m",
+  "hour_sin",
+  "hour_cos"
+]
