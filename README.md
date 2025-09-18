@@ -1,13 +1,3 @@
-# 1) vá para a pasta do projeto (ajuste se estiver noutro lugar)
-cd C:\Users\Bruno\Desktop\tech-challenge-fase3-rt-weather
-
-# 2) garanta que o remoto está correto (troque se precisar)
-git remote remove origin 2>$null
-git remote add origin https://github.com/obrunao/tech-challenge-fase3.git
-git branch -M main
-
-# 3) crie/sobrescreva o README.md com o conteúdo completo
-$readme = @'
 # Tech Challenge – Fase 3 (FIAP)
 ## Previsão de Temperatura em Tempo *Quase* Real (Open-Meteo + FastAPI + DuckDB + Streamlit)
 
@@ -296,3 +286,4 @@ Critérios do Tech Challenge
 ✔️ Modelagem: comparação com baseline, métricas e modelo salvo.
 ✔️ Deploy: Streamlit (app) + FastAPI (coleta).
 ✔️ Documentação: README com guia de execução.
+
